@@ -4,14 +4,11 @@ metadata:
   name: postgresql
   namespace: default
 spec:
-  prune: true
   interval: 1m
-  chart:
-    spec:
-      chartRef:
-      kind: OCIRepository
-      name: postgresql
-      namespace: default
-      interval: 10m
+  chartRef:
+    kind: OCIRepository
+    name: postgresql
+    namespace: default
+    interval: 10m
   values:
     
