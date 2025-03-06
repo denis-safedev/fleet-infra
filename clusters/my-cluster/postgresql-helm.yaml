@@ -5,6 +5,8 @@ metadata:
   namespace: default
 spec:
   interval: 1m
+  driftDetection:
+    mode: enabled
   chartRef:
     kind: OCIRepository
     name: postgresql
