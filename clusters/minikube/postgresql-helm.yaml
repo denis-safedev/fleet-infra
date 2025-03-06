@@ -1,20 +1,19 @@
-apiVersion: helm.toolkit.fluxcd.io/v2
-kind: HelmRelease
-metadata:
-  name: postgresql
-  namespace: default
-spec:
-  suspend: true
-  interval: 1m
-  reconcileStrategy: Revision
-  driftDetection:
-    mode: enabled
-  chartRef:
-    kind: OCIRepository
-    name: postgresql
-    namespace: flux-system
-  values:
-    # auth:
-    #   username: "dev"
-    #   password: dev
+# apiVersion: helm.toolkit.fluxcd.io/v2
+# kind: HelmRelease
+# metadata:
+#   name: postgresql
+#   namespace: default
+# spec:
+#   interval: 1m
+#   reconcileStrategy: Revision
+#   driftDetection:
+#     mode: enabled
+#   chartRef:
+#     kind: OCIRepository
+#     name: postgresql
+#     namespace: flux-system
+#   values:
+#     # auth:
+#     #   username: "dev"
+#     #   password: dev
     
