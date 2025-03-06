@@ -10,6 +10,6 @@ spec:
   chartRef:
     kind: OCIRepository
     name: postgresql
-    namespace: default
+    namespace: flux-system
   values:
     
