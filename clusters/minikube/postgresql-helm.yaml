@@ -11,11 +11,14 @@ spec:
     kind: OCIRepository
     name: postgresql
     namespace: flux-system
-  upgrade:
-    force: true
   values:
     auth:
       username: "dev"
       password: "dev"
-      postgresPassword: "dev"
+      database: "dev"
+    global:
+      postgresql:
+        service:
+          ports:
+            postgresql: 9876
     
