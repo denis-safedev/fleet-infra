@@ -5,6 +5,9 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
+  layerSelector:
+    mediaType: "application/vnd.cncf.helm.chart.content.v1.tar+gzip"
+    operation: copy
   url: oci://registry-1.docker.io/bitnamicharts/postgresql
   ref:
     semver: 
