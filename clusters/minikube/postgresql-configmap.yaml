@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: postgresql
-  namespace: default
-data:
-    values.yaml: |
-      auth:
-      password: dev
