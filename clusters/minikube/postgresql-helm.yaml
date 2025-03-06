@@ -11,6 +11,8 @@ spec:
     kind: OCIRepository
     name: postgresql
     namespace: flux-system
+  upgrade:
+    force: true
   values:
     auth:
       username: "dev"
