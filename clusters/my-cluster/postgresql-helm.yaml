@@ -10,7 +10,7 @@ spec:
       chart: postgresql
       version: '4.0.x'
       sourceRef:
-        kind: OCIRepository
+        kind: HelmRepository
         name: postgresql
       interval: 10m
   values:
