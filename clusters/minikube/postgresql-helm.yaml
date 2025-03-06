@@ -14,5 +14,6 @@ spec:
     namespace: flux-system
   values:
     auth:
+      user: "dev"
       password: dev
     
