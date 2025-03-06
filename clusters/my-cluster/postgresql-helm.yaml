@@ -8,6 +8,7 @@ spec:
   chart:
     spec:
       chart: postgresql
+      version: '17.4.x'
       sourceRef:
         kind: HelmRepository
         name: postgresql
