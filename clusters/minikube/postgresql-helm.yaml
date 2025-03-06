@@ -16,6 +16,8 @@ spec:
       username: "dev"
       password: "dev"
       database: "dev"
+    containerPorts:
+      postgresql: 9876
     global:
       postgresql:
         service:
