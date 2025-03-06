@@ -14,5 +14,6 @@ spec:
   values:
     auth:
       username: "dev"
-      password: dev
+      password: "dev"
+      postgresPassword: "dev"
     
