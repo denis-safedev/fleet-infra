@@ -12,15 +12,10 @@ spec:
     name: postgresql
     namespace: flux-system
   values:    
-    containerPorts:
-      postgresql: 9876
     global:
       postgresql:
         auth:
           username: "dev"
           password: "dev"
           database: "dev"
-        service:
-          ports:
-            postgresql: 9876
     
