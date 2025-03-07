@@ -15,7 +15,7 @@ spec:
     global:
       postgresql:
         auth:
-          username: "dev"
+          user: "dev"
           database: "dev"
           existingSecret: postgresql
     
