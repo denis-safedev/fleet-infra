@@ -17,4 +17,5 @@ spec:
         auth:
           username: "dev"
           database: "dev"
+          existingSecret: postgresql
     
