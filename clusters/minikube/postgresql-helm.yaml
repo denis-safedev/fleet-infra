@@ -16,6 +16,5 @@ spec:
       postgresql:
         auth:
           username: "dev"
-          password: "dev"
           database: "dev"
     
