@@ -16,6 +16,6 @@ spec:
       interval: 10m
   values:
     image:
-      tag: "2.61.3"
+      tag: "v2.61.3"
     extraArgs:
       - --chain=holesky
